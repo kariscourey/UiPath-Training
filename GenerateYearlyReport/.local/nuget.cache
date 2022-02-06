@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K+ZksCf2APqhpO6Hwp5qAm57NTW+bmslBrxUsYem0Nr81g2G5OKmqHIQbpQgu6XHutQziR5rI5v/kfLonqDtUg==",
+  "dgSpecHash": "piuZEyedvkDbao8ngr/snEOqsvTPJFvl/oCjL2OxO5v0Wl6qP1/C1DMe5gkmh7MYaxubiXjBBZaeLeRRkrDChQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Work\\GenerateYearlyReport\\.local\\",
+  "projectFilePath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Training\\GenerateYearlyReport\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\karis\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\karis\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",

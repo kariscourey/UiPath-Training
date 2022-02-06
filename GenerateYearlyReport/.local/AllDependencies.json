@@ -8400,9 +8400,9 @@
     "restore": {
       "projectUniqueName": "GenerateYearlyReport",
       "projectName": "GenerateYearlyReport",
-      "projectPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Work\\GenerateYearlyReport\\.local",
+      "projectPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Training\\GenerateYearlyReport\\.local",
       "packagesPath": "C:\\Users\\karis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Work\\GenerateYearlyReport\\.local"
+      "outputPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Training\\GenerateYearlyReport\\.local"
     },
     "frameworks": {
       "net461": {
