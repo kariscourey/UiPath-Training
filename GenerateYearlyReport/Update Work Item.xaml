@@ -1,12 +1,12 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="Update_Work_Item" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="in_TransactionItem" Type="InArgument(ui:QueueItem)" />
-    <x:Property Name="in_StrSHA1Hash" Type="InArgument(x:String)" />
+    <x:Property Name="in_StrComment" Type="InArgument(x:String)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>567.333333333333,1839.33333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>651.333333333333,1839.33333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Update_Work_Item_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -106,7 +106,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Add Comments'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,259.333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="6466c268-0543-4971-8b03-e3c284c180ea" Text="[in_StrSHA1Hash]" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Add Comments'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,259.333333333333" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="6466c268-0543-4971-8b03-e3c284c180ea" Text="[in_StrComment]" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items/update/79224184" DesignTimeRectangle="80, 511, 524, 81" ElementType="InputBox" FriendlyName="'TEXTAREA newComment'" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='text' aaname='' /&gt;" Guid="513cca4b-7048-4c03-ac3c-31a0072fadaa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAhAAAABVCAYAAAAYCt1/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAMKSURBVHhe7dpNT+JgGIXh+bX+WtmyUjcuRBNF8Yug8k5OQztlBkaerb2u5MSA7Zo7b/urAQAUCQgAoExAAABlBwNisVi0+XzeZrNZOz8/NzMzs4ktDZAWSBMcshcQ6/W6u/ji4qK74f7+vj08PLTlcmlmZmYTWX770wC3t7ddE6QN0ghjewGRC66vr7ubV6tVe3l5aa+vr2ZmZjaxpQHSAmmCtEEaYWwIiJw4pDKenp7a+/t722w27fPzs9vX15eZmZlNZP3vf1rg7e2ta4P+6URvCIiUxd3dXRcPuXm73e7+AwBMUVogIZHHF2mE8SnEEBB5WSLHFbkQAKCXNkgjpBV6Q0DkjcsUhpMHAGAsbZBGSCv09gIizzoEBAAwljZIIxwNiI+Pj90nAIA/0ggCAgAoERAAQJmAAADKBAQAUCYgAIAyAQEAlAkIAKBMQAAAZQICACgTEABAmYAAAMoEBABQJiAAgDIBAQCUCQgAoExAAABlAgIAKBMQAECZgAAAygQEAFAmIACAMgEBAJQJCACgTEAAAGUCAgAoExAAQJmAAADKBAQAUCYgAIAyAQEAlAkIAKBMQAAAZQICACgTEABAmYAAAMoEBABQJiAAgDIBAQCUCQgAoExAAABlAgIAKBMQAECZgAAAygQEAFAmIACAMgEBAJQJCACgTEAAAGUCAgAoExAAQJmAAADKBAQAUCYgAIAyAQEAlAkIAKBMQAAAZQICACgTEADAyc7Ozrq/AgIAOEkfDyEgAIBvjeMhBAQA8F9/x0MICADgqEPxEAICADjoWDyEgAAA/nEsHvrvBQQAsOe7eAgBAQAMTomHOBoQs9msbTab3ScA4Kc7NR4ijZBW6A0BMZ/P2+PjY9tut7tvAICfqhIPaYM0QlqhNwTEYrFol5eXAgIAfrhKPETaII2QVugNAREpi5ubm90nAIDWtcH49CH2AmK9XncXXF1dtefnZ6cRADBRaYDVatU1QdogjTC2FxC9HFHk4rwskTcuzczMbFpLA6QFxo8txg4GBADAca39BkyVDkXnEcRgAAAAAElFTkSuQmCC" InformativeScreenshot="cc8d2b1cd1e6064e6fb98caa54f178ba.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="FuzzySelector">
                   <uix:TargetAnchorable.Anchors>

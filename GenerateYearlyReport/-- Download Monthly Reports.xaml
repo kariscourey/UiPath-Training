@@ -99,7 +99,6 @@
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1348.66666666667,4047.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
-              <Variable x:TypeArguments="x:Boolean" Name="boolReports" />
               <Variable x:TypeArguments="x:Int32" Name="intIndex" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
@@ -208,7 +207,7 @@
                   </uix:NClick>
                   <ui:UiElementExists DisplayName="Element Exists 'pane'" Exists="[boolNoReport]" sap:VirtualizedContainerService.HintSize="1228,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                     <ui:UiElementExists.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="30dcb473-3846-4123-bfdf-f62a877e9e0a" InformativeScreenshot="e2825a9e84e6a1ec790b2687e1ef1c2e" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Download Monthly Report - Google Chrome' /&gt;&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl idx='2' role='pane' /&gt;">
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="30dcb473-3846-4123-bfdf-f62a877e9e0a" InformativeScreenshot="e2825a9e84e6a1ec790b2687e1ef1c2e" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Download Monthly Report - Google Chrome' /&gt;&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;">
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
                         </ui:Target.TimeoutMS>
