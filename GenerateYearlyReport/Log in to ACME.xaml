@@ -107,7 +107,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1540,93.3333333333333" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Starting - Log into ACME&quot;]" />
     <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_CredentialName]" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="1540,80" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[sstrPassword]" Username="[strUsername]" />
-    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Use Browser Chrome: ACME System 1 - Log In" sap:VirtualizedContainerService.HintSize="1540,3028" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="903a9ed2-7300-4972-b34d-5900c22cb869" Version="V1" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Use Browser Chrome: ACME System 1 - Log In" sap:VirtualizedContainerService.HintSize="1540,3028" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="903a9ed2-7300-4972-b34d-5900c22cb869" Version="V1" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
