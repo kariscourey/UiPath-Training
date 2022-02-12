@@ -94,7 +94,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Starting - Obtain Work Items Details&quot;]" />
-    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="434,471.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="a53cc028-3982-4a67-bf22-7fc741e9995e" Version="V1">
+    <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="434,471.333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a53cc028-3982-4a67-bf22-7fc741e9995e" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
