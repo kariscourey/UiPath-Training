@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1OBg6VzGnswjcqND3LwURVMfoPwwQcevsaT0XIzwgFv9DlYHDS/K74nzq1AYFJE/EJClvA5rXLWubUoa+fPt9g==",
+  "dgSpecHash": "xFzB8Tbmsqie1++GvjZP6HtMV2g3Qwr4c0gjH0+rxDZjoyQtt5vzh+FudWqcRebQGLAE4MtWtlSBABAbnhMugg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Work\\SecurityClientHashPractice\\.local\\",
+  "projectFilePath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Training\\SecurityClientHashPractice\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\karis\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\karis\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",

@@ -8400,9 +8400,9 @@
     "restore": {
       "projectUniqueName": "SecurityClientHashPractice",
       "projectName": "SecurityClientHashPractice",
-      "projectPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Work\\SecurityClientHashPractice\\.local",
+      "projectPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Training\\SecurityClientHashPractice\\.local",
       "packagesPath": "C:\\Users\\karis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Work\\SecurityClientHashPractice\\.local"
+      "outputPath": "C:\\Users\\karis\\OneDrive\\Documents\\GitHub\\UiPath-Training\\SecurityClientHashPractice\\.local"
     },
     "frameworks": {
       "net461": {
