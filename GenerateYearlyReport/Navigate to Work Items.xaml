@@ -90,7 +90,7 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="893.333333333333,520.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="713.333333333333,520.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="boolWorkItems" />
             </Sequence.Variables>
@@ -99,7 +99,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:UiElementExists DisplayName="Element Exists 'H1'" Exists="[boolWorkItems]" sap:VirtualizedContainerService.HintSize="851.333333333333,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+            <ui:UiElementExists DisplayName="Element Exists 'H1'" Exists="[boolWorkItems]" sap:VirtualizedContainerService.HintSize="671.333333333333,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
               <ui:UiElementExists.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5cb8321c-6703-4a7c-8ca4-ebf2557dce96" InformativeScreenshot="5117f2540d88848bb5eae1f24e84c4d1" Selector="&lt;webctrl tag='H1' class='page-header' /&gt;">
                   <ui:Target.TimeoutMS>
@@ -111,9 +111,9 @@
                 </ui:Target>
               </ui:UiElementExists.Target>
             </ui:UiElementExists>
-            <If Condition="[boolWorkItems]" sap:VirtualizedContainerService.HintSize="851.333333333333,280" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[boolWorkItems]" sap:VirtualizedContainerService.HintSize="671.333333333333,280" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="402.666666666667,85.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence sap:VirtualizedContainerService.HintSize="200,86" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -122,13 +122,13 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap:VirtualizedContainerService.HintSize="402.666666666667,116.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence sap:VirtualizedContainerService.HintSize="425.333333333333,116.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Throw Exception="[New Exception(&quot;Failure to navigate to Work Items.&quot;)]" sap:VirtualizedContainerService.HintSize="360.666666666667,22" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                  <Throw Exception="[New Exception(&quot;Failure to navigate to Work Items.&quot;)]" sap:VirtualizedContainerService.HintSize="383.333333333333,22" sap2010:WorkflowViewState.IdRef="Throw_1" />
                 </Sequence>
               </If.Else>
             </If>

@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>531.333333333333,1934</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>504,1934</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="29">
@@ -151,7 +151,7 @@
           <mva:VisualBasicValue x:TypeArguments="ui:QueueItem" ExpressionText="in_TransactionItem" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_StrComment">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="&quot;Upoaded with ID &quot; + strUploadID" />
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="&quot;Uploaded with ID &quot; + strUploadID" />
         </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
