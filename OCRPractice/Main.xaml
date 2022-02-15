@@ -1,0 +1,85 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="746,561.333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="25">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="17">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="756,496.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="boolPreCondition" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ImageFound DisplayName="Image Exists 'chrome.exe  Google'" Found="[boolPreCondition]" sap:VirtualizedContainerService.HintSize="714,106" sap2010:WorkflowViewState.IdRef="ImageFound_1">
+      <ui:ImageFound.Image>
+        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.5" Profile="Basic" TargetImageBase64="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" />
+      </ui:ImageFound.Image>
+      <ui:ImageFound.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f3c1d8cc-3746-44c1-9efb-fd13617caa5c" Selector="&lt;html app='chrome.exe' title='Google' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:ImageFound.Target>
+    </ui:ImageFound>
+    <If Condition="[boolPreCondition]" sap:VirtualizedContainerService.HintSize="714,258.666666666667" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Exists&quot;]" />
+      </If.Then>
+      <If.Else>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;DNE&quot;]" />
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
